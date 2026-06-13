@@ -14,13 +14,13 @@ Requirements:
 
 Usage:
   # Launch a game and monitor in real time
-  python mangohud_parser.py launch -- gamescope -f -- steam -gamepadui
+  python mangohud-parser.py launch -- gamescope -f -- steam -gamepadui
 
   # Parse an existing MangoHud log
-  python mangohud_parser.py parse /path/to/MangoHud_2024-01-15_12-30-00.csv
+  python mangohud-parser.py parse /path/to/MangoHud_2024-01-15_12-30-00.csv
 
   # Watch a log directory for new files
-  python mangohud_parser.py watch ~/.local/share/MangoHud/
+  python mangohud-parser.py watch ~/.local/share/MangoHud/
 """
 
 import argparse

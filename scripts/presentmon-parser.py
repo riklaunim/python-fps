@@ -10,10 +10,10 @@ Requirements:
   - Run as Administrator (PresentMon needs ETW access)
 
 Usage:
-  python presentmon_parser.py --process "game.exe"
-  python presentmon_parser.py --process "game.exe" --duration 60 --window 1.0
-  python presentmon_parser.py --process "game.exe" --presentmon "D:\\Path\\To\\PresentMon.exe"
-  python presentmon_parser.py --process "game.exe" --save capture.csv
+  python presentmon-parser.py --process "game.exe"
+  python presentmon-parser.py --process "game.exe" --duration 60 --window 1.0
+  python presentmon-parser.py --process "game.exe" --presentmon "D:\\Path\\To\\PresentMon.exe"
+  python presentmon-parser.py --process "game.exe" --save capture.csv
 """
 
 import argparse

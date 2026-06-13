@@ -13,9 +13,9 @@ Requirements:
   - Windows only
 
 Usage:
-  python rtss_reader.py
-  python rtss_reader.py --interval 0.5 --duration 120
-  python rtss_reader.py --csv output.csv
+  python rtss-reader.py
+  python rtss-reader.py --interval 0.5 --duration 120
+  python rtss-reader.py --csv output.csv
 
 If field offsets don't match your RTSS version, run rtss_diagnostic.py
 and update the OFFSET_* constants below.

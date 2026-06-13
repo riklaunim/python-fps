@@ -7,9 +7,9 @@ field offsets. Polls twice and reports all changed values.
 Also searches for IEEE 754 float values that might represent FPS directly.
 
 Usage:
-  python rtss_diagnostic.py
-  python rtss_diagnostic.py --poll-delay 2.0
-  python rtss_diagnostic.py --continuous
+  python rtss-diagnostic.py
+  python rtss-diagnostic.py --poll-delay 2.0
+  python rtss-diagnostic.py --continuous
 """
 
 import argparse
